@@ -1,0 +1,85 @@
+baseURL = 'https://mokhtarivahid.github.io/'
+languageCode = 'en-us'
+title = "Vahid Mokhtari"
+theme = 'hugo-coder'
+
+# paginate = 6
+# enableEmoji = true
+
+# [markup.highlight]
+# noClasses = false
+
+[params]
+author = "Vahid Mokhtari"
+description = "Vahid Mokhtari's personal website"
+keywords = "mokhtarivahid,vahid,mokhtari,automate planning,ai planning,robotics"
+info = ["Ph.D. in AI Planning and Robotics | Software Engineer"]
+
+avatarURL = "images/avatar.png"
+dateFormat = "January 2, 2006"
+since = 2023
+
+colorScheme = "auto"
+hideColorSchemeToggle = false
+
+# Series see also post count
+maxSeeAlsoItems = 5
+
+# Custom CSS
+customCSS = []
+
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+
+# Custom JS
+customJS = []
+
+# Custom remote JS files
+customRemoteJS = []
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin-square"
+weight = 1
+url = "https://www.linkedin.com/in/mokhtarivahid/"
+target = "_blank"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "ai ai-google-scholar-square ai-2x"
+weight = 2
+url = "https://scholar.google.com/citations?user=3h_rtHoAAAAJ&hl=en"
+target = "_blank"
+
+# [[params.social]]
+# name = "Github"
+# icon = "fa fa-2x fa-github"
+# weight = 2
+# url = "https://github.com/mokhtarivahid/"
+# target = "_blank"
+
+# [[params.social]]
+# name = "Twitter"
+# icon = "fa fa-2x fa-twitter"
+# weight = 3
+# url = "https://twitter.com/mokhtari_vahid"
+# target = "_blank"
+
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Publication"
+weight = 2
+url = "publication/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 3
+url = "contact/"
