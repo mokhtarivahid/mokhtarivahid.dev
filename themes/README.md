@@ -1,1 +1,3 @@
-Copy here your interesting hugo [themes](https://themes.gohugo.io/).
+```bash
+git clone https://github.com/luizdepra/hugo-coder.git
+```
