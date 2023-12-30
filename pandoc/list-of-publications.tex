@@ -1,0 +1,95 @@
+\documentclass[10pt]{article}
+
+\title{\textbf{List of Publications}}
+\author{Vahid Mokhtari}
+\date{}
+
+% Preamble
+\usepackage[scale=0.8, 
+    left=28mm, 
+    right=28mm, 
+    top=30mm, 
+    bottom=30mm
+]{geometry} % Reduce document margins
+\usepackage[
+    sorting=none,
+    articletitle=true,
+    maxbibnames=99,
+    backend=biber,
+    style=nature
+]{biblatex} % load the package
+\addbibresource{ref.bib} % add a bib-reference file
+
+\usepackage{microtype}
+
+\newcommand{\soptitle}{List of Publications}
+\newcommand{\yourname}{Vahid Mokhtari}
+\newcommand{\youremail}{mokhtari.vahid@kuleuven.be}
+\newcommand{\yourweb}{https://www.kuleuven.be/wieiswie/en/person/00126544}
+
+% Document
+\begin{document}
+
+\begin{center}
+{\bf\LARGE\soptitle}\\\vspace{5pt}
+\large \yourname\\
+% \small \yourweb\\
+% \small \youremail
+\end{center}
+
+\medskip\hrule\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% JOURNALS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{refsection} % refsection environment
+\renewcommand{\refname}{Journal Papers}
+
+\nocite{yudha:2021:composed} %(RAL-IROS 2021)\\
+\nocite{vahid2017prletter} %(Journal of Pattern Recognition Letter 2017)\\
+\nocite{vahid2016jint} %(Journal of Intelligent {\&} Robotic Systems 2016)\\
+\nocite{race2014} %(RACE Project 2014)\\
+
+\printbibliography[heading=subbibliography] % print section bibliography
+\end{refsection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{refsection} % refsection environment
+\renewcommand{\refname}{Conference Papers}
+
+\nocite{vahid:2021:icar} % (ICAR 2021)\\
+\nocite{vahid2017iros} % (IROS 2017)\\
+\nocite{vahid2017icarsc} % (ICARSC 2017)\\
+\nocite{vahid2016icaps} % (ICAPS 2016)\\
+\nocite{vahid2014experience} % (IAS 2016)\\
+\nocite{vahid2015icarsc} % (ICARSC 2015)\\
+\nocite{vahid2015recpad} % (RECPAD 2015)\\
+\nocite{lim2013roman} % (ROMAN 2014)\\
+\nocite{ensemble2013} % (ICEE 2013)\\
+\nocite{Fathzadeh2008} % (RoboCup 2007)\\
+\nocite{Fathzadeh2006mining} % (RoboCup 2006)\\
+\nocite{Fathzadeh2006} % (RoboCup 2005)\\
+\nocite{Fathzadeh2005coaching} % (L\&T 2005)\\
+
+\printbibliography[heading=subbibliography] % print section bibliography
+\end{refsection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WORKSHOPS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{refsection} % refsection environment
+\renewcommand{\refname}{Workshop Papers}
+
+\nocite{ajay:2020:tamp} %(RSS-WS 2020)\\
+\nocite{vahid:2019:sp} %(IROS-WS 2019)\\
+\nocite{kasaei2011instance} % (WS RSS 2013)\\
+
+\printbibliography[heading=subbibliography] % print section bibliography
+\end{refsection}
+
+\end{document}

@@ -51,16 +51,16 @@ weight = 2
 url = "https://scholar.google.com/citations?user=3h_rtHoAAAAJ&hl=en"
 target = "_blank"
 
-# [[params.social]]
-# name = "Github"
-# icon = "fa fa-2x fa-github"
-# weight = 2
-# url = "https://github.com/mokhtarivahid/"
-# target = "_blank"
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github-square"
+weight = 2
+url = "https://github.com/mokhtarivahid/"
+target = "_blank"
 
 # [[params.social]]
 # name = "Twitter"
-# icon = "fa fa-2x fa-twitter"
+# icon = "fa fa-2x fa-twitter-square"
 # weight = 3
 # url = "https://twitter.com/mokhtari_vahid"
 # target = "_blank"
