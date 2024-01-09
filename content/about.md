@@ -20,7 +20,7 @@ Currently, I serve as a software engineer at [OMP](https://omp.com/), specializi
 - **(2010)** Attain 3rd place in RoboCup International Competition in Mixed Reality League, Singapore, Singapore.
 - **(2009)** Attain 4th place in RoboCup International Competition in Mixed Reality League, Graz, Austria.
 - **(2009--2010)** Attain 1st place in RoboCup International Open Competition in Mixed Reality League, Tehran, Iran.
-- **(2007--2007)** Attain 1st place in RoboCup International Open Competition in Coach Simulation League, Tehran, Iran.
+- **(2007)** Attain 1st place in RoboCup International Open Competition in Coach Simulation League, Tehran, Iran.
 - **(2006)** Attain 1st place in RoboCup International Competition in Coach Simulation League, Bremen, Germany.
 - **(2005)** Attain 5th place in RoboCup International Competition in Coach Simulation League, Osaka, Japan.
 - **(2004)** Attain 1st place in RoboCup International Competition in Coach Simulation League, Lisbon, Portugal.
