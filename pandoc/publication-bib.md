@@ -1,7 +1,7 @@
 ---
 bibliography: 'ref.bib'
 nocite: |
-    @yudha:2021:composed, @vahid2017iros, @vahid2017prletter, @vahid2016jint, @vahid2016icaps
+    @yudha:2021:composed, @iros2019, @vahid2017iros, @vahid2017prletter, @vahid2016jint, @vahid2016icaps
 ...
 
 +++
