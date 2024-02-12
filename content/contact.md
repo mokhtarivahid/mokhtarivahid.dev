@@ -3,4 +3,4 @@ title = "Contact"
 slug = "contact"
 +++
 
-Follow me at my [linkedin](https://www.linkedin.com/in/mokhtarivahid/) profile.
+You can reach out to me through my [linkedin](https://www.linkedin.com/in/mokhtarivahid/) profile.
